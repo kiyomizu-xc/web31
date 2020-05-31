@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color: #ff3111;
+}
+h2{
+    font-weight: 310;
+    font-size: 50px; 
+    color: white;
+}
+.controls{
+    margin-top: 31px;
+    margin-bottom: 31px;
+    font-weight: 100;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+:root{
+    --base:white;
+    --spacing:100px;
+    --blur:10px;
+}
+    img{
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
+.js{
+    color: var(--base);
+}
