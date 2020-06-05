@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-color: violet;
+
+}
+.videobody{
+    width: 1080px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.video1{
+    border: 1px solid red;
+    width: 1080px;
+}
+
+.controlin{
+    position: absolute;
+    bottom: 0;
+    flex-direction: column;
+    border: 1px solid red;
+    transition: 0.3s;
+    transform: translateY(100%) translateY(-4px);
+    display: flex;
+}
+.videobody:hover .controlin{
+    border: 1px solid red;
+    transform: translateY(0);
+}
+.progress{
+    color: white;
+    height: 20px;
+    width: 1080px;
+    border: 1px solid red;
+    display: flex;
+    cursor: pointer;
+
+}
+.progress1{
+    background-color: white;
+    height: 20px;
+    flex: 0;
+    flex-basis: 1%;
+}
+.control{
+    border: 1px solid red;
+    width: 1080px;
+    height: 31px;
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    color: white;
+    text-align: center;
+    background-color: transparent;
+}
+input{
+    -webkit-appearance: none;
+    background-color: transparent;
+    outline: none;
+    color: none;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background:  white;
+}
+.control > .progress{
+    flex: 10;
+}
+.control > .main1{
+    flex: 1;
+}
+.control > .volume{
+    flex: 2;
+}
+.control > .volume1{
+    flex: 2;
+}
+.control > .tenf{
+    flex: 0.31;
+}
+.control > .tenb{
+    flex: 0.31;
+}
+.video1{
+    border: 1px solid red;
+}
