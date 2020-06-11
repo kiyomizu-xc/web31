@@ -1,6 +1,7 @@
 body{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
     background-color: white;
     padding: 0;
     margin: 0;
@@ -52,6 +53,15 @@ html {
 }
 .videobody{
     width: 1080px;
+=======
+    height: 100vh;
+    background-color: violet;
+
+}
+.videobody{
+    width: 1080px;
+    border: 1px solid red;
+>>>>>>> 1fe10bac04c089716fe6f4e6e8dffa04247547ee
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -61,6 +71,7 @@ html {
     position: relative;
 }
 .video1{
+<<<<<<< HEAD
     width: 100%;
 }
 
@@ -77,23 +88,53 @@ html {
 .controlin:hover{
     transform: translateY(0);
 
+=======
+    border: 1px solid red;
+    width: 1080px;
+}
+
+.controlin{
+    position: absolute;
+    bottom: 0;
+    flex-direction: column;
+    border: 1px solid red;
+    transition: 0.3s;
+    transform: translateY(100%) translateY(-4px);
+    display: flex;
+}
+.videobody:hover .controlin{
+    border: 1px solid red;
+    transform: translateY(0);
+>>>>>>> 1fe10bac04c089716fe6f4e6e8dffa04247547ee
 }
 .progress{
     color: white;
     height: 20px;
     width: 1080px;
+<<<<<<< HEAD
+=======
+    border: 1px solid red;
+>>>>>>> 1fe10bac04c089716fe6f4e6e8dffa04247547ee
     display: flex;
     cursor: pointer;
 
 }
 .progress1{
+<<<<<<< HEAD
     background-color: red;
+=======
+    background-color: white;
+>>>>>>> 1fe10bac04c089716fe6f4e6e8dffa04247547ee
     height: 20px;
     flex: 0;
     flex-basis: 1%;
 }
 .control{
+<<<<<<< HEAD
    // border: 1px solid red;
+=======
+    border: 1px solid red;
+>>>>>>> 1fe10bac04c089716fe6f4e6e8dffa04247547ee
     width: 1080px;
     height: 31px;
     display: flex;
@@ -101,11 +142,15 @@ html {
 }
 button{
     color: white;
+<<<<<<< HEAD
     outline: none;
     text-align: center;
     border: 1px solid black;
     font-weight: 400;
     font-size: 15px;
+=======
+    text-align: center;
+>>>>>>> 1fe10bac04c089716fe6f4e6e8dffa04247547ee
     background-color: transparent;
 }
 input{
@@ -113,7 +158,11 @@ input{
     background-color: transparent;
     outline: none;
     color: none;
+<<<<<<< HEAD
     border: 1px solid black;
+=======
+    border: 1px solid red;
+>>>>>>> 1fe10bac04c089716fe6f4e6e8dffa04247547ee
     border-radius: 5px;
 }
 input::-webkit-slider-thumb {
@@ -121,8 +170,13 @@ input::-webkit-slider-thumb {
     appearance: none;
     height: 14px;
     width: 14px;
+<<<<<<< HEAD
     border-radius: 31%;
     background:  black;
+=======
+    border-radius: 50%;
+    background:  white;
+>>>>>>> 1fe10bac04c089716fe6f4e6e8dffa04247547ee
 }
 .control > .progress{
     flex: 10;
@@ -142,6 +196,7 @@ input::-webkit-slider-thumb {
 .control > .tenb{
     flex: 0.31;
 }
+<<<<<<< HEAD
 .title{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -151,4 +206,8 @@ input::-webkit-slider-thumb {
     margin: 0 auto;
     margin-top: 100px;
     width: 1080px
+=======
+.video1{
+    border: 1px solid red;
+>>>>>>> 1fe10bac04c089716fe6f4e6e8dffa04247547ee
 }

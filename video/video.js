@@ -1,9 +1,14 @@
 let video1 = document.querySelector(".video1")
+<<<<<<< HEAD
 let videobody = document.querySelector(".videobody")
 let p = document.querySelector(".main1");
 let control = document.querySelector(".controlin");
 let control1 = document.querySelector(".controlin1");
 
+=======
+let p = document.querySelector(".main1");
+let control = document.querySelector(".controlin");
+>>>>>>> 1fe10bac04c089716fe6f4e6e8dffa04247547ee
 let main1 = document.querySelector(".main1");
 let tenf = document.querySelector(".tenf");
 let tenb = document.querySelector(".tenb");
@@ -11,12 +16,15 @@ let volume1 = document.querySelector(".volume");
 let volumetmp = document.querySelector(".volume1");
 let progress = document.querySelector(".progress");
 let progress1 = document.querySelector(".progress1");
+<<<<<<< HEAD
 let full = document.querySelector(".full");
 let head = document.querySelector(".head1");
 let body1 = document.querySelector("body");
 
 
 
+=======
+>>>>>>> 1fe10bac04c089716fe6f4e6e8dffa04247547ee
 
 
 
@@ -59,6 +67,7 @@ function update1(e){
     video1.currentTime=value1;
 
 }
+<<<<<<< HEAD
 function full1(){
     if(videobody.style.width === `100vw`){
         videobody.style.width = `1080px`;
@@ -78,6 +87,14 @@ function full1(){
 let mouse1  = false;
 progress.addEventListener("mousedown",()=>(mouse1 = true));
 progress.addEventListener("mouseup",()=>(mouse1 = false));
+=======
+
+let mouse1  = false;
+progress.addEventListener("mousedown",()=>mouse1 = 1);
+progress.addEventListener("mouseup",()=>mouse1 = 0);
+
+
+>>>>>>> 1fe10bac04c089716fe6f4e6e8dffa04247547ee
 p.addEventListener("click",p1);
 progress.addEventListener("click",update1);
 progress.addEventListener("mousemove",(e)=>(mouse1 && update1(e)));
@@ -92,9 +109,12 @@ volume1.addEventListener("mousemove",volumey)
 volumetmp.addEventListener("click",volumey1);
 volumetmp.addEventListener("change",volumey1);
 volumetmp.addEventListener("mousemove",volumey1);
+<<<<<<< HEAD
 full.addEventListener("click",full1);
 
 videobody.addEventListener("mousemove",timeoutcontrol)
+=======
+>>>>>>> 1fe10bac04c089716fe6f4e6e8dffa04247547ee
 
 
 
