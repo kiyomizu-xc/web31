@@ -1,0 +1,55 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("food.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+.body1{
+    color: white;
+    border: 1px solid red;
+    width: 310px;
+    text-align: center;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+li{
+    border: 1px solid red;
+    list-style-type: none;
+    font-weight: 100;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.31);
+    padding: 10px;
+}
+.menu input{
+    display: none;
+}
+label{
+    cursor: pointer;
+}
+input+label::before{
+    content: ' ◎ ';
+}
+input:checked+label::before{
+    content: " ◈ ";
+}
+.add{
+    margin-top: 14px;
+}
+.add input{
+    outline: none;
+    padding: 14px;
+}

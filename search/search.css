@@ -1,0 +1,45 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    justify-self: center;
+    margin-top: 31px;
+    width: 555px;
+    height: 31px;
+    padding: 10px;
+    border: 1px solid #dfe1e5 ;
+    border-radius: 31px;
+
+}
+:focus{
+    outline: none;
+}
+.comp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+li{
+    width: 555px;
+    padding: 31px;
+    margin: 17px;
+    list-style-type: none;
+    border: 1px solid #dfe1e5 ;
+    border-radius: 31px;
+}
+.name1{
+    color: red;
+}

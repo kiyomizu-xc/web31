@@ -1,0 +1,154 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+.head1{
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 31px;
+    height: 55px;
+    display: flex;
+}
+.youtube1{
+    width: 31px;
+    font-size: 55px;
+    flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.youtube{
+    flex: 1;
+    width: 82px;
+    font-size: 55px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchyoutube{
+    width: 441px;
+    height: 31px;
+}
+.input{
+    flex: 7;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 300px;
+    align-items: center;
+}
+.videobody{
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.video1{
+    width: 100%;
+}
+
+.controlin{
+    padding-top: 100px;
+    height: 155px;
+    position: absolute;
+    bottom: 0;
+    flex-direction: column;
+    transition: 0.3s;
+    transform: translateY(31%) translateY(-4px);
+    display: flex;
+}
+.controlin:hover{
+    transform: translateY(0);
+
+}
+.progress{
+    color: white;
+    height: 20px;
+    width: 1080px;
+    display: flex;
+    cursor: pointer;
+
+}
+.progress1{
+    background-color: red;
+    height: 20px;
+    flex: 0;
+    flex-basis: 1%;
+}
+.control{
+   // border: 1px solid red;
+    width: 1080px;
+    height: 31px;
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    color: white;
+    outline: none;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: transparent;
+}
+input{
+    -webkit-appearance: none;
+    background-color: transparent;
+    outline: none;
+    color: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 14px;
+    width: 14px;
+    border-radius: 31%;
+    background:  black;
+}
+.control > .progress{
+    flex: 10;
+}
+.control > .main1{
+    flex: 1;
+}
+.control > .volume{
+    flex: 2;
+}
+.control > .volume1{
+    flex: 2;
+}
+.control > .tenf{
+    flex: 0.31;
+}
+.control > .tenb{
+    flex: 0.31;
+}
+.title{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    height: 310px;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1080px
+}
